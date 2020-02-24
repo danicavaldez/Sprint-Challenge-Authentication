@@ -16,7 +16,7 @@ server.use('/api/auth', authRouter);
 server.use('/api/jokes', authenticate, jokesRouter);
 
 server.get("/", (req, res) => {
-  res.send("<h1>Authentication Sprint Challenge</h1>");
+  res.send("<h1>Authentication Sprint</h1>");
 });
 
 module.exports = server;
